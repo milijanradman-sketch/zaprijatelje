@@ -1,1 +1,36 @@
 
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zaprijatelje.si</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Zaprijatelje.si</h1>
+    <p>Spoznaj nove prijatelje v Sloveniji.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Registracija</h2>
+      <form id="registerForm">
+        <input type="text" id="name" placeholder="Ime" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <button type="submit">Pridruži se</button>
+      </form>
+      <p id="message"></p>
+    </section>
+
+    <section class="card">
+      <h2>Člani</h2>
+      <ul id="users"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
