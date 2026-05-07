@@ -1,6 +1,4 @@
-body {
-    background: red !important;
-}* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -68,4 +66,8 @@ nav a:hover {
 .menu-toggle {
     display: none;
     font-size: 28px;
+    cursor: pointer;
+}
+
+.hero {
 }
