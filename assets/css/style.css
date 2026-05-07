@@ -34,4 +34,36 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 60px;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    gap: 35px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d49a52;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
 }
