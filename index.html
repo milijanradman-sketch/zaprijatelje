@@ -1,36 +1,80 @@
-
 <!DOCTYPE html>
-<html lang="sl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zaprijatelje.si</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Zaprijatelje.si</h1>
-    <p>Spoznaj nove prijatelje v Sloveniji.</p>
-  </header>
+            <h3>Mnenja</h3>
+            <p>Preberite izkušnje naših gostov.</p>
+        </div>
 
-  <main>
-    <section class="card">
-      <h2>Registracija</h2>
-      <form id="registerForm">
-        <input type="text" id="name" placeholder="Ime" required />
-        <input type="email" id="email" placeholder="Email" required />
-        <button type="submit">Pridruži se</button>
-      </form>
-      <p id="message"></p>
+        <div class="feature-box">
+            <i class="fas fa-calendar"></i>
+            <h3>Dogodki</h3>
+            <p>Preverite prihajajoče zabavne večere.</p>
+        </div>
+
+        <div class="feature-box">
+            <i class="fas fa-envelope"></i>
+            <h3>Kontakt</h3>
+            <p>Obiščite nas na Kotnikovi 20.</p>
+        </div>
     </section>
 
-    <section class="card">
-      <h2>Člani</h2>
-      <ul id="users"></ul>
-    </section>
-  </main>
+    <section class="gallery" id="gallery">
+        <h2>Foto Galerija</h2>
 
-  <script src="script.js"></script>
+        <div class="gallery-grid">
+            <img src="assets/images/bar1.jpg" alt="Bar notranjost">
+            <img src="assets/images/bar2.jpg" alt="Terasa bara">
+            <img src="assets/images/bar1.jpg" alt="Bar">
+            <img src="assets/images/bar2.jpg" alt="Bar terasa">
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <h2>Mnenja gostov</h2>
+
+        <div class="reviews-container">
+            <div class="review-card">
+                <p>"Odličen ambient in super družba!"</p>
+                <span>- Marko</span>
+            </div>
+
+            <div class="review-card">
+                <p>"Najbolj prijeten bar v Ljubljani."</p>
+                <span>- Nina</span>
+            </div>
+
+            <div class="review-card">
+                <p>"Top lokacija za večerno pijačo."</p>
+                <span>- Luka</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="events" id="events">
+        <div class="overlay-dark"></div>
+
+        <div class="events-content">
+            <h2>Dogodki</h2>
+            <p>Vsak vikend posebni večeri, glasba in druženje.</p>
+        </div>
+    </section>
+
+    <section class="advertisement">
+        <h2>PROSTOR ZA VAŠO REKLAMO</h2>
+    </section>
+
+    <footer id="contact">
+        <h2>Kontakt</h2>
+
+        <p>Bar za prijatelje</p>
+        <p>Kotnikova 20, Ljubljana</p>
+        <p>Email: info@zaprijatelje.si</p>
+        <p>Telefon: 041 000 000</p>
+
+        <div class="socials">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
-
