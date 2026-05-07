@@ -2,59 +2,74 @@
 <html lang="sl">
 <head>
     <meta charset="UTF-8">
-    <title>Bar za prijatelje</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body><!DOCTYPE html>
-<html lang="sl">
-<head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bar za prijatelje</title>
+    <title>Bar Za Prijatelje | Ljubljana Bar</title>
+
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7a4b62b0a4.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
 <header>
-    <nav>
-        <div class="logo">BAR ZA PRIJATELJE</div>
-        <ul>
-            <li><a href="#domov">Domov</a></li>
-            <li><a href="#galerija">Galerija</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#mnenja">Mnenja</a></li>
-            <li><a href="#dogodki">Dogodki</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
-            <li><a href="#kako-do-nas">Kako do nas</a></li>
-        </ul>
+    <div class="logo">BAR ZA PRIJATELJE</div>
+
+    <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <nav id="nav">
+        <a href="#hero">Domov</a>
+        <a href="#gallery">Galerija</a>
+        <a href="#reviews">Mnenja</a>
+        <a href="#events">Dogodki</a>
+        <a href="#contact">Kontakt</a>
     </nav>
 </header>
 
-<section id="domov" class="hero">
-    <h1>BAR ZA PRIJATELJE</h1>
-    <p>Kotnikova 20, Ljubljana</p>
+<section class="hero" id="hero">
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+        <span class="top-text">Ljubljana Night Lounge</span>
+
+        <h1>BAR ZA PRIJATELJE</h1>
+
+        <p>
+            Prijeten bar v centru Ljubljane.
+            Odlična atmosfera, druženje in večerni ambient.
+        </p>
+
+        <a href="#contact" class="btn">Rezerviraj mizo</a>
+    </div>
 </section>
 
-<section id="menu">
-    <h2>Menu</h2>
-    <p>Pivo – 3€</p>
-    <p>Kava – 2€</p>
-    <p>Koktajl – 6€</p>
+<section class="welcome">
+    <div class="container">
+        <h2>Dobrodošli</h2>
+
+        <p>
+            Bar Za Prijatelje je priljubljena lokacija v Ljubljani,
+            kjer se srečujejo domačini, turisti in prijatelji.
+            Uživajte v sproščenem ambientu, odlični pijači in večernem vzdušju.
+        </p>
+    </div>
 </section>
 
-<section id="kontakt">
-    <h2>Kontakt</h2>
-    <p>041 000 000</p>
-</section>
+<section class="features">
 
-<section id="kako-do-nas">
-    <h2>Kako do nas</h2>
-    <iframe
-        src="https://www.google.com/maps?q=Kotnikova+20+Ljubljana&output=embed"
-        width="100%"
-        height="400">
-    </iframe>
-</section>
+    <div class="feature-box">
+        <i class="fas fa-cocktail"></i>
+        <h3>Odlična ponudba</h3>
+        <p>Koktajli, pivo, vino in prijetna družba.</p>
+    </div>
 
-</body>
+    <div class="feature-box">
+        <i class="fas fa-camera"></i>
+        <h3>Galerija</h3>
+        <p>Oglejte si utrinke iz bara in dogodkov.</p>
 </html>
